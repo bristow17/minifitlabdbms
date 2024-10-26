@@ -1,0 +1,79 @@
+body, html {
+  margin: 0; /* Remove default margin */
+  height: 100%; /* Full height */
+}
+
+.result-container {
+  background: linear-gradient(135deg, #0056b3, #ffcc00); /* Blue to Yellow gradient */
+  border-radius: 0; /* No border radius for full coverage */
+  box-shadow: none; /* Remove shadow for full coverage */
+  padding: 20px;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  color: #333; /* Text color for better visibility */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center; /* Center align items horizontally */
+}
+
+.result-header {
+  color: #fff; /* Change header color to white for contrast */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.score-display {
+  color: #fff; /* Change score color to white for contrast */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.question-list {
+  margin-top: 20px;
+  flex: 1; /* Allow the question list to grow and fill space */
+  width: 100%; /* Full width for the question list */
+  background-color: rgba(255, 255, 255, 0.8); /* Light background to highlight questions */
+  border-radius: 10px; /* Rounded corners for the background */
+  padding: 20px; /* Padding around the questions */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  overflow-y: auto; /* Allow scrolling if needed */
+}
+
+.question-item {
+  background-color: transparent; /* Make the background transparent */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for visibility */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.question-item:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  color: #333; /* Dark gray for the text */
+}
+
+.text-primary {
+  color: #0056b3; /* Blue for user answer */
+}
+
+.text-success {
+  color: #ffcc00; /* Yellow for correct answer */
+}
+
+.explanation {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555; /* Dark gray for explanation */
+}
+
+.result-message {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #fff; /* Change message color to white for contrast */
+}

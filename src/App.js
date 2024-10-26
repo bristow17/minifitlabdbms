@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage';
+import Exercise from './Exercise';
+import Result from './Result';
 
 function App() {
+  const [currentExercise, setCurrentExercise] = useState(null);
+  const [score, setScore] = useState(null);
+
+  const handleSelectExercise = (exerciseNumber) => {
+    setCurrentExercise(exerciseNumber);
+    setScore(null);
+  };
+
+  const handleComplete = (finalScore) => {
+    setScore(finalScore);
+    setCurrentExercise(null);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<HomePage onSelectExercise={handleSelectExercise} />} />
+        <Route path="/exercise/:exerciseNumber" element={<Exercise onComplete={handleComplete} />} />
+        <Route path="/result" element={<Result />} />
+        <Route path="*" element={<HomePage onSelectExercise={handleSelectExercise} />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

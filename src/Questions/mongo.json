@@ -1,0 +1,213 @@
+[
+    {
+      "id": 1,
+      "question": "What is MongoDB?",
+      "choices": ["A relational database", "A document-oriented NoSQL database", "An SQL database", "A programming language"],
+      "answer": "A document-oriented NoSQL database",
+      "explanation": "MongoDB is designed to store, retrieve, and manage document-oriented data, which is different from traditional relational databases."
+    },
+    {
+      "id": 2,
+      "question": "Which data structure does MongoDB use to store data?",
+      "choices": ["Table", "Document", "Row", "Column"],
+      "answer": "Document",
+      "explanation": "MongoDB uses a flexible document structure to store data in BSON format, allowing for nested fields."
+    },
+    {
+      "id": 3,
+      "question": "What is the default port number for MongoDB?",
+      "choices": ["27017", "3306", "5432", "8080"],
+      "answer": "27017",
+      "explanation": "The default port for MongoDB server is 27017, which is used for client connections."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a valid MongoDB query to find all documents in a collection?",
+      "choices": ["db.collection.find()", "db.collection.all()", "db.collection.get()", "db.collection.findAll()"],
+      "answer": "db.collection.find()",
+      "explanation": "The 'find()' method retrieves all documents in a collection; other options are not valid methods."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the MongoDB 'ObjectId'?",
+      "choices": ["To store string data", "To create unique identifiers for documents", "To index collections", "To store arrays"],
+      "answer": "To create unique identifiers for documents",
+      "explanation": "ObjectId is a special type used for document identifiers, ensuring each document can be uniquely identified."
+    },
+    {
+      "id": 6,
+      "question": "What command is used to insert a new document in a MongoDB collection?",
+      "choices": ["db.collection.insert()", "db.collection.add()", "db.collection.push()", "db.collection.create()"],
+      "answer": "db.collection.insert()",
+      "explanation": "'insert()' is the correct method to add new documents to a collection."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT a valid operator in MongoDB?",
+      "choices": ["$eq", "$gt", "$lt", "$like"],
+      "answer": "$like",
+      "explanation": "$like is not an operator in MongoDB; MongoDB uses $regex for pattern matching instead."
+    },
+    {
+      "id": 8,
+      "question": "How do you update an existing document in MongoDB?",
+      "choices": ["db.collection.update()", "db.collection.modify()", "db.collection.change()", "db.collection.edit()"],
+      "answer": "db.collection.update()",
+      "explanation": "The 'update()' method is used to modify existing documents based on certain criteria."
+    },
+    {
+      "id": 9,
+      "question": "Which method is used to delete a document in MongoDB?",
+      "choices": ["db.collection.remove()", "db.collection.delete()", "db.collection.destroy()", "db.collection.drop()"],
+      "answer": "db.collection.remove()",
+      "explanation": "'remove()' is the method to delete one or more documents from a collection."
+    },
+    {
+      "id": 10,
+      "question": "What does the aggregation framework in MongoDB allow you to do?",
+      "choices": ["Perform complex queries", "Insert multiple documents at once", "Delete collections", "Index documents"],
+      "answer": "Perform complex queries",
+      "explanation": "The aggregation framework processes data records and returns computed results, allowing for complex data manipulations."
+    },
+    {
+      "id": 11,
+      "question": "Which command is used to create a new database in MongoDB?",
+      "choices": ["use database_name", "db.createDatabase()", "db.newDatabase()", "create.database()"],
+      "answer": "use database_name",
+      "explanation": "Using 'use' followed by the database name creates or switches to that database in MongoDB."
+    },
+    {
+      "id": 12,
+      "question": "How do you create an index on a field in MongoDB?",
+      "choices": ["db.collection.createIndex()", "db.collection.addIndex()", "db.collection.index()", "db.collection.createKey()"],
+      "answer": "db.collection.createIndex()",
+      "explanation": "The 'createIndex()' method is used to create an index on a specific field for faster query performance."
+    },
+    {
+      "id": 13,
+      "question": "What is a MongoDB replica set?",
+      "choices": ["A single instance of a database", "A group of MongoDB servers maintaining the same data", "A type of index", "A query language"],
+      "answer": "A group of MongoDB servers maintaining the same data",
+      "explanation": "A replica set is a cluster of MongoDB servers that provides redundancy and high availability."
+    },
+    {
+      "id": 14,
+      "question": "What command do you use to see all databases in MongoDB?",
+      "choices": ["show dbs", "db.list()", "get.databases()", "list.databases()"],
+      "answer": "show dbs",
+      "explanation": "'show dbs' is the command to list all databases available in the MongoDB instance."
+    },
+    {
+      "id": 15,
+      "question": "Which method is used to retrieve data from a MongoDB collection?",
+      "choices": ["db.collection.find()", "db.collection.get()", "db.collection.fetch()", "db.collection.select()"],
+      "answer": "db.collection.find()",
+      "explanation": "'find()' retrieves documents from the specified collection, allowing for filtering and sorting."
+    },
+    {
+      "id": 16,
+      "question": "Which operator is used to match any value in an array?",
+      "choices": ["$in", "$any", "$all", "$some"],
+      "answer": "$in",
+      "explanation": "$in allows queries to match documents where the field's value exists in a specified array."
+    },
+    {
+      "id": 17,
+      "question": "How do you remove all documents in a collection?",
+      "choices": ["db.collection.removeMany()", "db.collection.deleteMany()", "db.collection.drop()", "db.collection.remove()"],
+      "answer": "db.collection.remove()",
+      "explanation": "'remove()' can delete all documents if called without any filter criteria."
+    },
+    {
+      "id": 18,
+      "question": "What is the purpose of the 'MongoDB Atlas'?",
+      "choices": ["A local database", "A cloud database service", "A type of index", "A programming language"],
+      "answer": "A cloud database service",
+      "explanation": "MongoDB Atlas is a cloud service that provides a fully managed version of MongoDB."
+    },
+    {
+      "id": 19,
+      "question": "What does the $set operator do in MongoDB?",
+      "choices": ["Updates a document's field", "Deletes a document", "Finds a document", "Creates a new document"],
+      "answer": "Updates a document's field",
+      "explanation": "$set is used in update operations to specify which fields should be modified."
+    },
+    {
+      "id": 20,
+      "question": "How can you limit the number of results returned by a MongoDB query?",
+      "choices": ["db.collection.find().limit()", "db.collection.limit()", "db.collection.find().take()", "db.collection.fetch().limit()"],
+      "answer": "db.collection.find().limit()",
+      "explanation": "The 'limit()' method restricts the number of documents returned by a query."
+    },
+    {
+      "id": 21,
+      "question": "What is the purpose of the 'findOne' method in MongoDB?",
+      "choices": ["To find multiple documents", "To find a single document", "To update a document", "To delete a document"],
+      "answer": "To find a single document",
+      "explanation": "'findOne()' retrieves the first document that matches the query criteria."
+    },
+    {
+      "id": 22,
+      "question": "Which command is used to switch to a specific database in MongoDB?",
+      "choices": ["use database_name", "db.switch(database_name)", "db.change(database_name)", "select.database(database_name)"],
+      "answer": "use database_name",
+      "explanation": "The 'use' command switches the context to the specified database, creating it if it doesn't exist."
+    },
+    {
+      "id": 23,
+      "question": "What is the role of 'mongod' in MongoDB?",
+      "choices": ["The client interface", "The database server", "The query language", "The storage engine"],
+      "answer": "The database server",
+      "explanation": "'mongod' is the primary daemon process for MongoDB, handling data requests and managing the database."
+    },
+    {
+      "id": 24,
+      "question": "How do you sort the results of a MongoDB query?",
+      "choices": ["db.collection.sort()", "db.collection.orderBy()", "db.collection.find().sort()", "db.collection.fetch().sort()"],
+      "answer": "db.collection.find().sort()",
+      "explanation": "The 'sort()' method can be chained with 'find()' to order the query results based on specified fields."
+    },
+    {
+      "id": 25,
+      "question": "What is the primary language used for MongoDB queries?",
+      "choices": ["SQL", "JavaScript", "Python", "Java"],
+      "answer": "JavaScript",
+      "explanation": "MongoDB queries are structured using a JavaScript-like syntax, allowing dynamic queries."
+    },
+    {
+      "id": 26,
+      "question": "How do you aggregate data in MongoDB?",
+      "choices": ["db.collection.aggregate()", "db.collection.group()", "db.collection.sum()", "db.collection.collect()"],
+      "answer": "db.collection.aggregate()",
+      "explanation": "The 'aggregate()' method processes data through a pipeline of stages for advanced data analysis."
+    },
+    {
+      "id": 27,
+      "question": "What is the 'change stream' feature in MongoDB?",
+      "choices": ["Real-time notifications for database changes", "A way to create backups", "A type of index", "A command for data retrieval"],
+      "answer": "Real-time notifications for database changes",
+      "explanation": "Change streams allow applications to listen for changes to data in real-time, enhancing responsiveness."
+    },
+    {
+      "id": 28,
+      "question": "What is the purpose of sharding in MongoDB?",
+      "choices": ["To replicate data", "To distribute data across multiple servers", "To index data", "To backup data"],
+      "answer": "To distribute data across multiple servers",
+      "explanation": "Sharding splits data into smaller chunks and distributes them across multiple servers for scalability."
+    },
+    {
+      "id": 29,
+      "question": "What is 'bson' in MongoDB?",
+      "choices": ["A data type", "A query language", "A format for binary data", "A method for data retrieval"],
+      "answer": "A format for binary data",
+      "explanation": "BSON (Binary JSON) is a binary representation of JSON-like documents used to store data in MongoDB."
+    },
+    {
+      "id": 30,
+      "question": "What is the main advantage of using MongoDB over traditional SQL databases?",
+      "choices": ["Better security", "More complex queries", "Flexible schema", "Faster performance"],
+      "answer": "Flexible schema",
+      "explanation": "MongoDB allows a flexible schema, meaning documents can have different structures, which is ideal for evolving data requirements."
+    }
+  ]
+  

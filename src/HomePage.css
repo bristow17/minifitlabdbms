@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(135deg, #0056b3, #ffcc00); /* Blue to Yellow gradient */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .home-container {
+    z-index: 1; /* Ensure content is above the gradient */
+    position: relative; /* Positioning context for the overlay */
+    color: #fff; /* White text color */
+  }
+  
+  .title {
+    font-size: 3em; /* Larger title font size */
+  }
+  
+  .intro-text {
+    font-size: 1.5em; /* Larger intro text */
+    margin-bottom: 30px; /* Space below the intro text */
+  }
+  
+  .card-hover {
+    border-radius: 15px; /* Rounded corners for cards */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+  }
+  
+  .card-title {
+    color: #333; /* Dark color for title */
+    font-size: 1.8em; /* Title size */
+  }
+  
+  .card-text {
+    color: #333; /* Dark color for text */
+  }
+  
+  .start-button {
+    background: #ffcc00; /* Yellow button */
+    color: #0056b3; /* Blue text */
+    border: none; /* Remove border */
+  }.home-container {
+    height: 100vh; /* Set the container height to the full viewport height */
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    background: url('https://your-background-image-url.com') no-repeat center center; /* Background image */
+    background-size: cover; /* Make background image cover the entire container */
+    color: white; /* Change text color for better visibility */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  .title {
+    font-size: 2.5rem; /* Increase the title font size */
+    margin-bottom: 1rem;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem; /* Adjust introduction text size */
+    margin-bottom: 2rem;
+  }
+  
+  .card-container {
+    display: flex; /* Use flexbox for card layout */
+    justify-content: center; /* Center cards */
+    width: 100%; /* Ensure it takes full width */
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+  }
+  
+  .card-hover {
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+  }
+  
+  .card-img {
+    height: 150px; /* Set a fixed height for card images */
+    object-fit: contain; /* Ensure the image fits within the card */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Increase card title font size */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Adjust card text font size */
+  }
+  
+  .start-button {
+    background-color: #007bff; /* Primary button color */
+    border: none;
+  }
+  
+  .start-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  
+  .start-button:hover {
+    background: #e0b800; /* Darker yellow on hover */
+    color: #fff; /* White text on hover */
+  }
+  
+  .card-img {
+    height: 200px; /* Set height for images */
+    object-fit: cover; /* Cover the card area */
+    border-top-left-radius: 15px; /* Rounded corners for top left */
+    border-top-right-radius: 15px; /* Rounded corners for top right */
+  }
+  

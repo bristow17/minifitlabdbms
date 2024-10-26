@@ -1,0 +1,214 @@
+[
+    {
+      "id": 1,
+      "question": "What does SQL stand for?",
+      "choices": ["Structured Query Language", "Standard Query Language", "Sequential Query Language", "Simple Query Language"],
+      "answer": "Structured Query Language",
+      "explanation": "SQL stands for Structured Query Language, which is a standard language for managing and manipulating databases."
+    },
+    {
+      "id": 2,
+      
+      "question": "Which SQL statement is used to extract data from a database?",
+      "choices": ["GET", "SELECT", "EXTRACT", "PICK"],
+      "answer": "SELECT",
+      "explanation": "The SELECT statement is used to query and retrieve data from a database."
+    },
+    {
+      "id": 3,
+      "question": "Which clause is used to filter the results of a query?",
+      "choices": ["WHERE", "HAVING", "FILTER", "SELECT"],
+      "answer": "WHERE",
+      "explanation": "The WHERE clause is used to filter records based on specified conditions."
+    },
+    {
+      "id": 4,
+      "question": "How do you select all columns from a table named 'employees'?",
+      "choices": ["SELECT * FROM employees", "SELECT all FROM employees", "SELECT columns FROM employees", "GET * FROM employees"],
+      "answer": "SELECT * FROM employees",
+      "explanation": "Using SELECT * retrieves all columns from the specified table."
+    },
+    {
+      "id": 5,
+      "question": "Which SQL keyword is used to sort the result set?",
+      "choices": ["ORDER BY", "SORT BY", "GROUP BY", "FILTER BY"],
+      "answer": "ORDER BY",
+      "explanation": "ORDER BY is used to sort the result set based on one or more columns."
+    },
+    {
+      "id": 6,
+      "question": "Which SQL statement is used to insert new records into a table?",
+      "choices": ["INSERT INTO", "ADD RECORD", "NEW RECORD", "INSERT RECORD"],
+      "answer": "INSERT INTO",
+      "explanation": "The INSERT INTO statement is used to add new records to a table."
+    },
+    {
+      "id": 7,
+      "question": "How do you update an existing record in a table?",
+      "choices": ["UPDATE table SET column=value WHERE condition", "MODIFY table SET column=value WHERE condition", "CHANGE table SET column=value WHERE condition", "ALTER table SET column=value WHERE condition"],
+      "answer": "UPDATE table SET column=value WHERE condition",
+      "explanation": "The UPDATE statement modifies existing records in a table based on a condition."
+    },
+    {
+      "id": 8,
+      "question": "Which SQL command is used to remove records from a table?",
+      "choices": ["REMOVE", "DELETE", "DROP", "ERASE"],
+      "answer": "DELETE",
+      "explanation": "The DELETE command is used to remove existing records from a table."
+    },
+    {
+      "id": 9,
+      "question": "How do you remove a table from a database?",
+      "choices": ["REMOVE TABLE table_name", "DELETE TABLE table_name", "DROP TABLE table_name", "ERASE TABLE table_name"],
+      "answer": "DROP TABLE table_name",
+      "explanation": "DROP TABLE permanently removes a table and its data from the database."
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of the SQL GROUP BY clause?",
+      "choices": ["To filter records", "To aggregate data", "To sort data", "To join tables"],
+      "answer": "To aggregate data",
+      "explanation": "The GROUP BY clause groups rows that have the same values in specified columns into summary rows."
+    },
+    {
+      "id": 11,
+      "question": "Which SQL function is used to find the total number of rows in a table?",
+      "choices": ["COUNT()", "SUM()", "TOTAL()", "NUM()"],
+      "answer": "COUNT()",
+      "explanation": "COUNT() function returns the number of rows that match a specified condition."
+    },
+    {
+      "id": 12,
+      "question": "Which SQL function is used to find the average value of a column?",
+      "choices": ["AVG()", "MEAN()", "SUM()", "MEDIAN()"],
+      "answer": "AVG()",
+      "explanation": "AVG() calculates the average value of a numeric column."
+    },
+    {
+      "id": 13,
+      "question": "What is the default sorting order of the ORDER BY clause?",
+      "choices": ["Ascending", "Descending", "Alphabetical", "Numerical"],
+      "answer": "Ascending",
+      "explanation": "By default, the ORDER BY clause sorts data in ascending order."
+    },
+    {
+      "id": 14,
+      "question": "Which SQL keyword is used to prevent duplicate records from being returned?",
+      "choices": ["DISTINCT", "UNIQUE", "DIFFERENT", "NO_DUPLICATES"],
+      "answer": "DISTINCT",
+      "explanation": "The DISTINCT keyword is used to return only distinct (different) values in the result set."
+    },
+    {
+      "id": 15,
+      "question": "How do you combine rows from two or more tables based on a related column?",
+      "choices": ["JOIN", "MERGE", "LINK", "COMBINE"],
+      "answer": "JOIN",
+      "explanation": "JOIN is used to combine rows from two or more tables based on a related column between them."
+    },
+    {
+      "id": 16,
+      "question": "Which type of JOIN returns all records from the left table and matched records from the right table?",
+      "choices": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "OUTER JOIN"],
+      "answer": "LEFT JOIN",
+      "explanation": "LEFT JOIN returns all records from the left table and matched records from the right table; unmatched records will be NULL."
+    },
+    {
+      "id": 17,
+      "question": "Which clause is used to filter groups of records?",
+      "choices": ["GROUP BY", "ORDER BY", "HAVING", "WHERE"],
+      "answer": "HAVING",
+      "explanation": "HAVING is used to filter records after aggregation."
+    },
+    {
+      "id": 18,
+      "question": "Which SQL clause is used to specify the condition for a JOIN?",
+      "choices": ["ON", "WHERE", "HAVING", "JOIN"],
+      "answer": "ON",
+      "explanation": "The ON clause specifies the condition to join tables."
+    },
+    {
+      "id": 19,
+      "question": "Which SQL keyword is used to create a new table in a database?",
+      "choices": ["CREATE TABLE", "NEW TABLE", "ADD TABLE", "MAKE TABLE"],
+      "answer": "CREATE TABLE",
+      "explanation": "CREATE TABLE is used to define a new table and its columns in the database."
+    },
+    {
+      "id": 20,
+      "question": "What is the purpose of the SQL ALTER TABLE statement?",
+      "choices": ["To add or delete columns", "To change the data type of a column", "To rename a table", "All of the above"],
+      "answer": "All of the above",
+      "explanation": "ALTER TABLE allows modifications to the structure of an existing table."
+    },
+    {
+      "id": 21,
+      "question": "Which SQL statement is used to remove all rows from a table without deleting the table itself?",
+      "choices": ["TRUNCATE TABLE", "DELETE FROM", "DROP TABLE", "CLEAR TABLE"],
+      "answer": "TRUNCATE TABLE",
+      "explanation": "TRUNCATE TABLE removes all rows from a table but retains the table structure."
+    },
+    {
+      "id": 22,
+      "question": "What is the purpose of the SQL UNION operator?",
+      "choices": ["To combine results of two or more SELECT queries", "To join tables", "To filter records", "To aggregate data"],
+      "answer": "To combine results of two or more SELECT queries",
+      "explanation": "The UNION operator is used to combine the result sets of two or more SELECT statements."
+    },
+    {
+      "id": 23,
+      "question": "Which SQL function is used to get the highest value in a column?",
+      "choices": ["MAX()", "HIGHEST()", "TOP()", "LARGEST()"],
+      "answer": "MAX()",
+      "explanation": "MAX() returns the maximum value from a specified column."
+    },
+    {
+      "id": 24,
+      "question": "Which SQL function is used to get the lowest value in a column?",
+      "choices": ["MIN()", "LOWEST()", "BOTTOM()", "SMALLEST()"],
+      "answer": "MIN()",
+      "explanation": "MIN() returns the minimum value from a specified column."
+    },
+    {
+      "id": 25,
+      "question": "Which clause is used to define a subset of records to update in a SQL UPDATE statement?",
+      "choices": ["WHERE", "SET", "UPDATE", "FROM"],
+      "answer": "WHERE",
+      "explanation": "The WHERE clause specifies which records should be updated based on certain conditions."
+    },
+    {
+      "id": 26,
+      "question": "What is a primary key?",
+      "choices": ["A unique identifier for a record", "A foreign key", "An index", "A constraint"],
+      "answer": "A unique identifier for a record",
+      "explanation": "A primary key uniquely identifies each record in a table, ensuring that no two records have the same value."
+    },
+    {
+      "id": 27,
+      "question": "What is a foreign key?",
+      "choices": ["A key used to link two tables", "A unique identifier for a record", "An index", "A constraint"],
+      "answer": "A key used to link two tables",
+      "explanation": "A foreign key is a field (or collection of fields) in one table that refers to the primary key in another table."
+    },
+    {
+      "id": 28,
+      "question": "Which SQL statement is used to create a view?",
+      "choices": ["CREATE VIEW", "NEW VIEW", "MAKE VIEW", "DEFINE VIEW"],
+      "answer": "CREATE VIEW",
+      "explanation": "CREATE VIEW is used to create a virtual table based on the result set of a SELECT statement."
+    },
+    {
+      "id": 29,
+      "question": "What does the SQL term 'schema' refer to?",
+      "choices": ["The structure of a database", "The data within a database", "A SQL command", "A type of relationship"],
+      "answer": "The structure of a database",
+      "explanation": "A schema is a blueprint of how the database is constructed, including tables, fields, and relationships."
+    },
+    {
+      "id": 30,
+      "question": "What is normalization in databases?",
+      "choices": ["Organizing data to reduce redundancy", "Creating multiple copies of data", "Increasing data complexity", "Adding more tables to a database"],
+      "answer": "Organizing data to reduce redundancy",
+      "explanation": "Normalization is the process of organizing data in a database to minimize redundancy and improve data integrity."
+    }
+  ]
+  

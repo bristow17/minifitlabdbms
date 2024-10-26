@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #e3f2fd; /* Light blue background for the whole body */
+  font-family: Arial, sans-serif;
+  color: #333; /* Default text color */
+}
+
+h2, h3, h5 {
+  margin: 10px 0;
+}
+
+button {
+  border-radius: 5px;
+}
